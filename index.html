@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Work Samples</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <link rel="stylesheet" href="fonts.css">
+ <link rel="stylesheet" href="style.css">
+
+ <style media="screen">
+
+ </style>
+
+</head>
+
+<body>
+  <div id="container">
+        <div id="header">
+          <!-- <div class="logo">
+            <img src="./cupra_logo.png" width="px" height="auto" position="relative">
+          </div> -->
+          <div class="heading">
+            <!-- <h1>The Route to Infinity</h1> -->
+            <h1>Cupra Banners</h1>
+          </div>
+        </div>
+
+        <!---------------------->
+        <!--ANIMATED BANNER 01-->
+        <!---------------------->
+
+        <div class="Banner01_All">
+          <!-- <hr style="width:100%;text-align:left;margin-left:0" class="bannerCard column Banner01"> -->
+
+          <div class="row1">
+            <!-- <div class="column Banner01_300x600">
+              <iframe src="./Banners/FCB_Lifestyle/richLoads/LifeStyle_300x600_Rich/index.html" width=" 300" height=" 600" frameborder="0" scrolling="no"></iframe>
+              <p> LifeStyle_300 x 600 </p>
+            </div>
+            <div class="column Banner01_160x600">
+              <iframe src="./Banners/FCB_Lifestyle/richLoads/LifeStyle_160x600_Rich/index.html" width=" 160" height=" 600" frameborder="0" scrolling="no"></iframe>
+              <p> LifeStyle_160 x 600 </p>
+            </div> -->
+            <div class="column Banner01_300x250">
+              <iframe src="./Banners/08929_01_CUPRA_Spring Drive_Digital_Display_Formentor_v04/300x250/index.html" width=" 300" height=" 250" frameborder="0" scrolling="no"></iframe>
+              <p> Cupra_Formentor_300 x 250 </p>
+            </div>
+          </div>
+          <!-- <div class="row2">
+            <div class="column Banner01_728x90">
+              <iframe src="./Banners/FCB_Lifestyle/richLoads/LifeStyle_728x90_Rich/index.html" width=" 728" height="90" frameborder="0" scrolling="no"></iframe>
+              <p> LifeStyle_728 x 90 </p>
+            </div>
+          </div>
+          <div class="row1">
+            <div class="column Banner01_300x600">
+              <iframe src="./Banners/Skies/richLoads/Skies_300x600_Rich/index.html" width=" 300" height=" 600" frameborder="0" scrolling="no"></iframe>
+              <p> Skies_300 x 600 </p>
+            </div>
+            <div class="column Banner01_160x600">
+              <iframe src="./Banners/Skies/richLoads/Skies_160x600_Rich/index.html" width=" 160" height=" 600" frameborder="0" scrolling="no"></iframe>
+              <p> Skies_160 x 600 </p>
+            </div>
+            <div class="column Banner01_300x250">
+              <iframe src="./Banners/Skies/richLoads/Skies_300x250_Rich/index.html" width=" 300" height=" 250" frameborder="0" scrolling="no"></iframe>
+              <p> Skies_300 x 250 </p>
+            </div>
+          </div> -->
+          <!-- <div class="row3">
+            <div class="column Banner01_728x90">
+              <iframe src="./Banners/Skies/richLoads/Skies_728x90_Rich/index.html" width=" 728" height="90" frameborder="0" scrolling="no"></iframe>
+              <p> Skies_728 x 90 </p>
+            </div>
+          </div> -->
+        </div>
+
+        </div>
+
+
+
+
+
+</body>
+
+ <script type="text/javascript">
+  filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+  // if(window.innerHeight > 300){
+  //   alert(window.innerHeight)
+  // }
+ </script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $("#backToTop").hide(),
+        $(function(){$(window).scroll(function(){$(this).scrollTop()>150?$("#backToTop").fadeIn():$("#backToTop").fadeOut()}),
+        $("#backToTop a").click(function(){return $("body,html").animate({scrollTop:0},800),!1})})});
+  </script>
+</html>
