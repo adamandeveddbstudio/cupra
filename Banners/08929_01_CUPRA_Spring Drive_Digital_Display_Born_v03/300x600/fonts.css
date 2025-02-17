@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Cupra-Book";
+    src: url("fonts/Cupra-Book.woff2") format("opentype");
+}
+
+@font-face {
+    font-family: "Cupra-Regular";
+    src: url("fonts/Cupra-Regular.woff2") format("opentype");
+}
+
+@font-face {
+    font-family: "Cupra-Bold";
+    src: url("fonts/Cupra-Bold.woff2") format("opentype");
+}
