@@ -1,0 +1,438 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   RESET CSS
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/************ My CSS *************/
+
+html,
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  color: #fff;
+}
+
+html,
+.bannerSize {
+  width: 300px;
+  height: 600px;
+}
+
+span {
+  display: inline-block;
+}
+
+.textC {
+  text-align: center;
+}
+
+#banner {
+  background: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #515151;
+  box-sizing: border-box;
+}
+
+.w100 {
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.posAbsolute {
+  position: absolute;
+}
+
+.cupra-regular {
+
+  font-family: 'Cupra-Regular', sans-serif;
+}
+
+.cupra-book {
+
+  font-family: 'Cupra-Book', sans-serif;
+}
+
+.cupra-bold {
+
+  font-family: 'Cupra-Bold', sans-serif;
+}
+
+#car {
+
+  transform: scale(0.9);
+}
+
+#copy1 {
+  width: 243px;
+  height: auto;
+  top: 295px;
+  left: 15px;
+  opacity: 0;
+  font-size: 32px;
+  line-height: 29px;
+  letter-spacing: 1.6px;
+  text-align: left;
+}
+
+#copy2 {
+  width: 339px;
+  height: auto;
+  top: 368px;
+  left: 19px;
+  opacity: 0;
+  font-size: 17.1px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
+
+#copy3 {
+  width: 339px;
+  height: auto;
+  top: 390px;
+  left: 19px;
+  opacity: 0;
+  font-size: 16.9px;
+  line-height: 23px;
+  letter-spacing: 0.45px;
+}
+
+#copy4 {
+  width: 339px;
+  height: auto;
+  top: 414px;
+  left: 19px;
+  opacity: 0;
+  font-size: 16.9px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+}
+
+#copy5 {
+  width: 339px;
+  height: auto;
+  top: 367px;
+  left: 19px;
+  opacity: 0;
+  font-size: 17.7px;
+  line-height: 21px;
+  letter-spacing: 0.05px;
+}
+
+#copy6 {
+  width: 339px;
+  height: auto;
+  top: 392px;
+  left: 20px;
+  opacity: 0;
+  font-size: 16.9px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
+
+#copy7 {
+  width: 339px;
+  height: auto;
+  top: 414px;
+  left: 18px;
+  opacity: 0;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.35px;
+}
+
+#copy8 {
+  width: 339px;
+  height: auto;
+  top: 437px;
+  left: 19px;
+  opacity: 0;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
+
+#copy9 {
+  width: 339px;
+  height: auto;
+  top: 368px;
+  left: 19px;
+  opacity: 0;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.75px;
+}
+
+#copy10 {
+  width: 339px;
+  height: auto;
+  top: 391px;
+  left: 20px;
+  opacity: 0;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.75px;
+}
+
+
+#copy11 {
+  width: 339px;
+  height: auto;
+  top: 414px;
+  left: 18px;
+  opacity: 0;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.45px;
+}
+
+#d1 {
+  top: -1px;
+  left: -1px;
+}
+
+#cta1,
+#cta2 {
+  opacity: 0;
+}
+
+#disclaimer {
+  top: 555.5px;
+  left: 16.2px;
+  font-size: 8.05px;
+  line-height: 10px;
+  text-align: left;
+}
+
+
+#disclaimer1 {
+  top: 564.8px;
+  left: 19.7px;
+  font-size: 7.95px;
+  line-height: 10px;
+  text-align: left;
+  letter-spacing: 0.05px;
+}
+
+#disclaimer2 {
+  top: 565.4px;
+  left: 17.5px;
+  font-size: 8.05px;
+  line-height: 10px;
+  text-align: left;
+}
+
+#disclaimer3 {
+  top: 575.4px;
+  left: 21.1px;
+  font-size: 8.15px;
+  line-height: 10px;
+  text-align: left;
+}
+
+#disclaimer4 {
+  top: 516.4px;
+  left: 12.1px;
+  font-size: 7.95px;
+  line-height: 10px;
+  text-align: left;
+}
+
+#disclaimer5 {
+  letter-spacing: -0.03px;
+  top: 527.4px;
+  left: 20.6px;
+  font-size: 8.05px;
+  line-height: 9.5px;
+  text-align: left;
+}
+
+span.star {
+  position: relative;
+  top: -2px;
+}
+
+span.star1 {
+  position: relative;
+  top: -1px;
+}
+
+span.st {
+  font-size: 9px;
+  position: relative;
+  top: -6px;
+}
+
+span.st1 {
+  font-size: 9px;
+  position: relative;
+  top: -6px;
+}
+
+span.sup_copy2 {
+  font-size: 9px;
+  position: relative;
+  top: -8px;
+}
+
+span.point {
+  font-size: 10px;
+  position: relative;
+  top: -6px;
+}
+
+span.point2 {
+  font-size: 9px;
+  position: relative;
+  top: -7px;
+}
+
+
+span.star2 {
+  font-size: 6px;
+  position: relative;
+  top: -2px;
+}
+
+
+/* #copy6 {
+  clip: rect(0px, 0px, 190px, 0px);
+} */
